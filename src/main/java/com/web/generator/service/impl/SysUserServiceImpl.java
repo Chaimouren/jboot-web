@@ -12,25 +12,25 @@ import io.jboot.service.JbootServiceBase;
 @Bean
 public class SysUserServiceImpl extends JbootServiceBase<SysUser> implements SysUserService {
 
-    @Cacheable(name = "myCache",key = "page:#(page)-#(size)")
+    @Cacheable(name = "myCache", key = "page:#(page)-#(size)")
     public Page<SysUser> paginate(int page, int size) {
         return DAO.paginate(page, size);
     }
 
     @Override
-    @CacheEvict(name = "myCache",key = "*")
+    @CacheEvict(name = "myCache", key = "*")
     public Object save(SysUser model) {
         return super.save(model);
     }
 
     @Override
-    @CacheEvict(name = "myCache",key = "*")
+    @CacheEvict(name = "myCache", key = "*")
     public boolean update(SysUser model) {
         return super.update(model);
     }
 
     @Override
-    @CacheEvict(name = "myCache",key = "*")
+    @CacheEvict(name = "myCache", key = "*")
     public boolean delete(SysUser model) {
         return super.delete(model);
     }

@@ -13,7 +13,7 @@ public class UserController extends JbootController {
     @Inject
     private SysUserService userService;
 
-    public void findAll(){
+    public void findAll() {
         renderText(Arrays.toString(userService.findAll().toArray()));
     }
 

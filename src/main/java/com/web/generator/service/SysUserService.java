@@ -6,7 +6,7 @@ import io.jboot.db.model.Columns;
 
 import java.util.List;
 
-public interface SysUserService  {
+public interface SysUserService {
 
     /**
      * 根据主键查找Model

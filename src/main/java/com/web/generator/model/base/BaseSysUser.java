@@ -9,150 +9,150 @@ import com.jfinal.plugin.activerecord.IBean;
 @SuppressWarnings("serial")
 public abstract class BaseSysUser<M extends BaseSysUser<M>> extends JbootModel<M> implements IBean {
 
-	public void setId(java.lang.String id) {
-		set("id", id);
-	}
+    public void setId(java.lang.String id) {
+        set("id", id);
+    }
 
-	public java.lang.String getId() {
-		return getStr("id");
-	}
-
-	/**
-	 * 用户名
-	 */
-	public void setUsername(java.lang.String username) {
-		set("username", username);
-	}
+    public java.lang.String getId() {
+        return getStr("id");
+    }
 
     /**
      * 用户名
      */
-	public java.lang.String getUsername() {
-		return getStr("username");
-	}
+    public void setUsername(java.lang.String username) {
+        set("username", username);
+    }
 
-	/**
-	 * 密码
-	 */
-	public void setPassword(java.lang.String password) {
-		set("password", password);
-	}
+    /**
+     * 用户名
+     */
+    public java.lang.String getUsername() {
+        return getStr("username");
+    }
 
     /**
      * 密码
      */
-	public java.lang.String getPassword() {
-		return getStr("password");
-	}
+    public void setPassword(java.lang.String password) {
+        set("password", password);
+    }
 
-	/**
-	 * 别名
-	 */
-	public void setNickname(java.lang.String nickname) {
-		set("nickname", nickname);
-	}
+    /**
+     * 密码
+     */
+    public java.lang.String getPassword() {
+        return getStr("password");
+    }
 
     /**
      * 别名
      */
-	public java.lang.String getNickname() {
-		return getStr("nickname");
-	}
+    public void setNickname(java.lang.String nickname) {
+        set("nickname", nickname);
+    }
 
-	/**
-	 * 电话
-	 */
-	public void setMobile(java.lang.String mobile) {
-		set("mobile", mobile);
-	}
+    /**
+     * 别名
+     */
+    public java.lang.String getNickname() {
+        return getStr("nickname");
+    }
 
     /**
      * 电话
      */
-	public java.lang.String getMobile() {
-		return getStr("mobile");
-	}
+    public void setMobile(java.lang.String mobile) {
+        set("mobile", mobile);
+    }
 
-	/**
-	 * email
-	 */
-	public void setEmail(java.lang.String email) {
-		set("email", email);
-	}
+    /**
+     * 电话
+     */
+    public java.lang.String getMobile() {
+        return getStr("mobile");
+    }
 
     /**
      * email
      */
-	public java.lang.String getEmail() {
-		return getStr("email");
-	}
+    public void setEmail(java.lang.String email) {
+        set("email", email);
+    }
 
-	/**
-	 * 认证token
-	 */
-	public void setAccessToken(java.lang.String accessToken) {
-		set("access_token", accessToken);
-	}
+    /**
+     * email
+     */
+    public java.lang.String getEmail() {
+        return getStr("email");
+    }
 
     /**
      * 认证token
      */
-	public java.lang.String getAccessToken() {
-		return getStr("access_token");
-	}
+    public void setAccessToken(java.lang.String accessToken) {
+        set("access_token", accessToken);
+    }
 
-	/**
-	 * 刷新token
-	 */
-	public void setRefreshToken(java.lang.String refreshToken) {
-		set("refresh_token", refreshToken);
-	}
+    /**
+     * 认证token
+     */
+    public java.lang.String getAccessToken() {
+        return getStr("access_token");
+    }
 
     /**
      * 刷新token
      */
-	public java.lang.String getRefreshToken() {
-		return getStr("refresh_token");
-	}
+    public void setRefreshToken(java.lang.String refreshToken) {
+        set("refresh_token", refreshToken);
+    }
 
-	public void setCreateDate(java.util.Date createDate) {
-		set("create_date", createDate);
-	}
+    /**
+     * 刷新token
+     */
+    public java.lang.String getRefreshToken() {
+        return getStr("refresh_token");
+    }
 
-	public java.util.Date getCreateDate() {
-		return get("create_date");
-	}
+    public void setCreateDate(java.util.Date createDate) {
+        set("create_date", createDate);
+    }
 
-	public void setCreateUserid(java.lang.String createUserid) {
-		set("create_userid", createUserid);
-	}
+    public java.util.Date getCreateDate() {
+        return get("create_date");
+    }
 
-	public java.lang.String getCreateUserid() {
-		return getStr("create_userid");
-	}
+    public void setCreateUserid(java.lang.String createUserid) {
+        set("create_userid", createUserid);
+    }
 
-	public void setDelDate(java.util.Date delDate) {
-		set("del_date", delDate);
-	}
+    public java.lang.String getCreateUserid() {
+        return getStr("create_userid");
+    }
 
-	public java.util.Date getDelDate() {
-		return get("del_date");
-	}
+    public void setDelDate(java.util.Date delDate) {
+        set("del_date", delDate);
+    }
 
-	public void setDelUerid(java.lang.String delUerid) {
-		set("del_uerid", delUerid);
-	}
+    public java.util.Date getDelDate() {
+        return get("del_date");
+    }
 
-	public java.lang.String getDelUerid() {
-		return getStr("del_uerid");
-	}
+    public void setDelUerid(java.lang.String delUerid) {
+        set("del_uerid", delUerid);
+    }
 
-	public void setStatus(java.lang.Integer status) {
-		set("status", status);
-	}
+    public java.lang.String getDelUerid() {
+        return getStr("del_uerid");
+    }
 
-	public java.lang.Integer getStatus() {
-		return getInt("status");
-	}
+    public void setStatus(java.lang.Integer status) {
+        set("status", status);
+    }
+
+    public java.lang.Integer getStatus() {
+        return getInt("status");
+    }
 
 }

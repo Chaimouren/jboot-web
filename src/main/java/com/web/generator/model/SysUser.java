@@ -8,5 +8,5 @@ import com.web.generator.model.base.BaseSysUser;
  */
 @Table(tableName = "sys_user", primaryKey = "id")
 public class SysUser extends BaseSysUser<SysUser> {
-	
+
 }

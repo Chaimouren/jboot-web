@@ -1,7 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="892a5a41-5817-44f6-8c3f-b2d57672a26c" name="Default Changelist" comment="" />
+    <list default="true" id="892a5a41-5817-44f6-8c3f-b2d57672a26c" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/web/JbootWebStarter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/web/JbootWebStarter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/web/config/LogConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/web/config/LogConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/web/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/web/controller/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/web/generator/CodeGenerator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/web/generator/CodeGenerator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/web/generator/model/SysUser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/web/generator/model/SysUser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/web/generator/model/base/BaseSysUser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/web/generator/model/base/BaseSysUser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/web/generator/service/SysUserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/web/generator/service/SysUserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/web/generator/service/impl/SysUserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/web/generator/service/impl/SysUserServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/jboot.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/jboot.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/log4j.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/log4j.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/jboot-web.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/jboot.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/jboot.properties" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -28,6 +45,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
@@ -41,41 +61,33 @@
     </option>
   </component>
   <component name="ProjectId" id="1W6YiEF2Q9ttA60a1wJllDKXWfY" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/resources" />
+    <property name="last_opened_file_path" value="E:/jpress/jpress" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.0" />
-    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.1345895" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="E:\idea-workspace\jboot-web\src\main\resources" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.JbootWebStarter">
-    <configuration name="CodeGenerator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.web.generator.CodeGenerator" />
-      <module name="jboot-web" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.web.generator.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager">
     <configuration name="JbootWebStarter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.web.JbootWebStarter" />
       <module name="jboot-web" />
@@ -92,7 +104,6 @@
     <recent_temporary>
       <list>
         <item itemvalue="Application.JbootWebStarter" />
-        <item itemvalue="Application.CodeGenerator" />
       </list>
     </recent_temporary>
   </component>
@@ -119,6 +130,9 @@
       <option name="presentableId" value="Default" />
       <updated>1578471636608</updated>
       <workItem from="1578471638817" duration="4595000" />
+      <workItem from="1578563777507" duration="2371000" />
+      <workItem from="1578566338866" duration="302000" />
+      <workItem from="1579245162632" duration="4515000" />
     </task>
     <servers />
   </component>
@@ -126,37 +140,49 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="137" y="19" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1578472460024">
+    <state x="137" y="19" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1579245183109">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="137" y="19" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728@0.0.1366.728" timestamp="1578472460024" />
+    <state x="137" y="19" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728@0.0.1366.728" timestamp="1579245183109" />
     <state x="397" y="166" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1578471936623">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="397" y="166" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1366.728@0.0.1366.728" timestamp="1578471936623" />
+    <state x="488" y="73" key="#com.intellij.ide.util.MemberChooser" timestamp="1579247644193">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="488" y="73" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728@0.0.1366.728" timestamp="1579247644193" />
     <state x="337" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1578475036035">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="337" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1366.728@0.0.1366.728" timestamp="1578475036035" />
-    <state width="1323" height="267" key="GridCell.Tab.0.bottom" timestamp="1578476239942">
+    <state x="463" y="119" key="FileChooserDialogImpl" timestamp="1579248357026">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="267" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1578476239942" />
-    <state width="1323" height="267" key="GridCell.Tab.0.center" timestamp="1578476239941">
+    <state x="463" y="119" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1579248357026" />
+    <state width="1323" height="44" key="GridCell.Tab.0.bottom" timestamp="1579249055043">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="267" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1578476239941" />
-    <state width="1323" height="267" key="GridCell.Tab.0.left" timestamp="1578476239941">
+    <state width="1323" height="44" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1579249055043" />
+    <state width="1323" height="44" key="GridCell.Tab.0.center" timestamp="1579249055043">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="267" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1578476239941" />
-    <state width="1323" height="267" key="GridCell.Tab.0.right" timestamp="1578476239942">
+    <state width="1323" height="44" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1579249055043" />
+    <state width="1323" height="44" key="GridCell.Tab.0.left" timestamp="1579249055043">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="267" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1578476239942" />
-    <state x="163" y="0" key="SettingsEditor" timestamp="1578471661787">
+    <state width="1323" height="44" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1579249055043" />
+    <state width="1323" height="44" key="GridCell.Tab.0.right" timestamp="1579249055043">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="163" y="0" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1578471661787" />
+    <state width="1323" height="44" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1579249055043" />
+    <state x="163" y="0" key="SettingsEditor" timestamp="1579245294342">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="163" y="0" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1579245294342" />
+    <state x="363" y="188" key="com.intellij.ide.util.TipDialog" timestamp="1578566347171">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="363" y="188" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1578566347171" />
   </component>
 </project>
